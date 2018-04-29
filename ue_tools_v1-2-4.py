@@ -1831,7 +1831,7 @@ class AppendHeroTPP(bpy.types.Operator):
     
     Custom_RIG_name = StringProperty(name="Custom Name",update = RIG_Name_Callback)
     Include_Hero_value = BoolProperty(name="Include Hero Mesh?")
-    Include_LowRes = BoolProperty(name="Movile version?")
+    Include_LowRes = BoolProperty(name="Mobile version?")
       
     def execute (self, context):
         
